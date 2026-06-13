@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+
+.listaMarcas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+
+}
+
+.marca {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+    align-items: flex-start;
+
+
+}
+
+.nombreEmpresa {
+    font-family: "Saira Stencil", sans-serif;
+    font-size: clamp(50px, 8vw, 90px);
+  
+  text-align: center;
+}
+
+.menu {
+  
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.logoPrincipal {
+    width: 100%;
+    max-width: 1000px;
+    
+    display: block;
+    margin: 0 auto;
+
+}
+
+.equipoOriginal {
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+
+
+
+}
+body {
+background-image: url(../assets/img/ChatGPT\ Image\ 22\ abr\ 2026\,\ 21_08_21.png)
+
+
+
+}           
+.contacto{
+width: 100%;
+max-width: 100px;
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        width: 64px;
+
+    }
+}
+.contactoLink{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-decoration: none;
+
+
+}
+.contactoLink:hover{
+ font-weight: bold;
+ text-decoration: underline;
+color: blue;
+}
+.contactoLink:focus{
+text-decoration: underline;
+
+}
+.contactoTexto{
+font-size: large;
+font-family: "Roboto", sans-serif;
+font-weight:500;
+
+}
