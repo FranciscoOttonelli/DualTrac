@@ -24,7 +24,7 @@
 
 }
 
-.nombreEmpresa {
+.tituloPrincipal {
     font-family: "Saira Stencil", sans-serif;
     font-size: clamp(50px, 8vw, 90px);
   
@@ -61,7 +61,7 @@ h2 {
 
 }
 body {
-background-image: url(../assets/img/ChatGPT\ Image\ 22\ abr\ 2026\,\ 21_08_21.png)
+background-image: url("../assets/img/fondo.png");
 
 
 
