@@ -1,0 +1,9 @@
+@mixin fuente($familia, $tamano) {
+    font-family: $familia;
+    font-size: $tamano;
+}
+
+@mixin imagenResponsive($width, $max-width) {
+    width: $anchoLogo;
+    max-width: $logoResponsive;
+}

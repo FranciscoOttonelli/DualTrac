@@ -1,4 +1,79 @@
-@use "base";
-@use "variables";
-@use "mixins";
-@use "extend";
+@use "base" as *;
+@use "variables" as *;
+@use "mixins" as *;
+@use "extend" as *;
+
+.tituloPrincipal {
+    font-family: $titulos;
+    font-size: $tituloResponsive;
+    text-align: center;
+}
+
+.lista {
+    @include fuente($contactos, $textoLista);
+    list-style: none;
+
+}
+
+h2 {
+    font-size: $h2;
+    font-family: $contactos;
+}
+
+.relleno {
+    font-family: $relleno;
+    font-size: $rellenoFuente;
+}
+
+.contactoLink {
+    font-family: $relleno;
+    color: $colorLink;
+}
+
+.contactoLink:hover {
+    color: $linkHover;
+}
+
+.logoPrincipal {
+    width: $anchoLogo;
+    max-width: $logoResponsive;
+}
+
+.marca {
+    width: $anchoLogo;
+    max-width: $marcaResponsive;
+    margin-top: $marginMarca;
+}
+
+.contacto {
+    width: $anchoLogo;
+    max-width: $contacto;
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        width:$contactoResponsive;
+    }
+}
+
+.listaMarcas {
+    gap: $gap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    list-style: none;
+}
+
+
+
+
+body {
+    background-image: url("../assets/img/fondo.png");
+
+}
+.contactoTexto{
+font-size: large;
+font-family: $relleno;
+font-weight:$negrita;
+
+
+}
