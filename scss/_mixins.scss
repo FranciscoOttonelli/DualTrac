@@ -7,3 +7,24 @@
     width: $anchoLogo;
     max-width: $logoResponsive;
 }
+@mixin efectoScale($duracion: 0.3s, $escala ) {
+    transition: transform $duracion ease;
+
+  &:hover {
+    transform: scale($escala);
+
+  }
+}
+@mixin marcaLayout($width,$maxWidth, $marginTop){
+width: $width;
+max-width: $maxWidth;
+margin-top: $marginTop;
+
+
+}
+@mixin gridResponsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ 
+  list-style: none;
+}

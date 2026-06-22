@@ -7,6 +7,7 @@
     font-family: $titulos;
     font-size: $tituloResponsive;
     text-align: center;
+
 }
 
 .lista {
@@ -67,7 +68,7 @@ h2 {
 
 
 body {
-    background-image: url("../assets/img/fondo.png");
+    background-image: url("../assets/img/fondo.webp");
 
 }
 .contactoTexto{
@@ -76,4 +77,14 @@ font-family: $relleno;
 font-weight:$negrita;
 
 
+}
+.servicios {
+    display: flex;
+  flex-direction: column;
+    gap: 20px;
+    list-style:none;
+    row-gap: 20px;
+    @include fuente($relleno, $rellenoFuente)
+    
+    
 }
